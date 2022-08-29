@@ -1,9 +1,8 @@
-# windows-daemon-set-privileged
-How to run a Windows daemonset with privileged access in AKS
+#  Windows-daemon-set-privileged
+`How to run a Windows daemonset with privileged access in AKS`
 
 
-*******
-
+```
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
@@ -40,5 +39,5 @@ spec:
         kubernetes.io/os: windows
       terminationGracePeriodSeconds: 0
 
+```
 
-****
